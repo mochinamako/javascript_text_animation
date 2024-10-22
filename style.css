@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h2 {
+    padding-top: 3rem;
+  }
+  
+  p {
+    padding: 1rem;
+    box-sizing: border-box;
+    /* サイズは100%にして、余白ができないようにする。ここ以外だったら全部に適用してもいい物 */
+    font-weight: bold;
+  }
+  
+  .fade {
+    opacity: 0;
+    /* 不透明度を0にする */
+  }
+  
+  .color {
+    background-color: orange;
+  }
+
+  .line {
+    background-color: #0093E9;
+    width: 0;
+  }
+
+  .slide-in {
+    opacity: 0;
+  }
